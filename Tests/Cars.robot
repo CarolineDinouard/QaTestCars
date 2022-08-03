@@ -13,6 +13,7 @@ Test Teardown  Common.End Web Test
 *** Test Cases ***
 Invalid login scenarios should display correct error messages
     [Template]  Test Multiple Login Scenarios
+    [Tags]  Cars
     ${UNREGISTERED_USER}
     ${INVALID_PASSWORD_USER}
     ${BLANK_CREDENTIALS_USER}
